@@ -1,0 +1,45 @@
+h3{
+	font-family: Elephant;
+	color: black;
+	font-size: 40;
+	background-color: red;
+	padding: 1px 1px 1px 1px;
+}
+
+#lista{
+	width: 460px;
+ 	margin: left;
+ 	background: #e3e3e3;
+ 	padding: 1px 1px 10px 1px;
+}
+header{
+	padding: 1px 1px 1px ;
+	margin: auto;
+}
+
+ul li{
+	cursor: pointer;
+	position: relative;
+	padding: 2px 1px 2px 2px;
+	font-size: 18px;
+	transition: 0.2;	
+}
+
+#digitar{
+	width: 460px;
+ 	margin: left;
+ 	background: #e3e3e3;
+ 	padding: 1px 1px 10px 1px;	
+}
+
+/* Correção de margem da ul */
+ul {
+  margin: 10;
+  padding: 10;
+}
+
+/* Quando clicar, adiciona o traço na tarefa */
+ul li.checked {
+  text-decoration: line-through;
+}
+
